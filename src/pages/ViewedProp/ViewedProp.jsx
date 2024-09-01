@@ -26,7 +26,7 @@ const ViewedProp = () => {
             }
             setViewedEstates(estatesViewed)
         }
-    },[])
+    },[estates])
 
     return (
         <div className="pt-12">
