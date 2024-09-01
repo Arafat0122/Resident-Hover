@@ -8,11 +8,11 @@ const Contact = () => {
     };
 
     return (
-        <div className='min-h-screen flex items-center justify-center bg-gray-100'>
+        <div className='min-h-screen flex items-center justify-center bg-gray-100 py-24'>
             <Helmet>
                 <title>Contact</title>
             </Helmet>
-            <div className="relative bg-cover bg-center rounded-3xl overflow-hidden" style={{ backgroundImage: `url(${Img})` }}>
+            <div className="relative bg-cover bg-center lg:rounded-3xl overflow-hidden" style={{ backgroundImage: `url(${Img})` }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative max-w-4xl mx-auto p-8 lg:p-16 bg-gray-600 bg-opacity-40 rounded-3xl shadow-lg">
                     <h2 className="text-3xl font-bold text-white text-center mb-8">Contact Us</h2>

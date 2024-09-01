@@ -11,7 +11,7 @@ const Home = () => {
     const estates = useLoaderData();
 
     return (
-        <div>
+        <div className="pt-24">
             <Helmet>
                 <title>Resident Hover</title>
             </Helmet>

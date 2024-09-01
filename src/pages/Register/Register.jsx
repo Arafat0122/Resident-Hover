@@ -83,7 +83,7 @@ const Register = () => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        <div className="min-h-screen flex items-center justify-center py-24">
             <Helmet>
                 <title>Register</title>
             </Helmet>

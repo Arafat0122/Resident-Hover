@@ -3,7 +3,7 @@ import AbImg from '../../assets/about.png';
 
 const About = () => {
     return (
-        <div className='min-h-screen flex items-center bg-gray-100'>
+        <div className='min-h-screen flex items-center bg-gray-100 py-24'>
             <Helmet>
                 <title>About Us</title>
             </Helmet>

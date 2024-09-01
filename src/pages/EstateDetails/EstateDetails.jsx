@@ -63,19 +63,23 @@ const EstateDetails = () => {
                                 <TbHomeStats className="mr-1" /> {area_sqft} sqft
                             </p>
                         </div>
-                        <div className="flex gap-4 mb-4">
-                            <p className="flex items-center bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
-                                <span className="font-semibold">Year Built:</span> {year_built}
-                            </p>
-                            <p className="flex items-center bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
-                                <span className="font-semibold">Garage:</span> {garage ? 'Yes' : 'No'}
-                            </p>
-                            <p className="flex items-center bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
-                                <span className="font-semibold">Parking Spots:</span> {parking_spots}
-                            </p>
-                            <p className="flex items-center bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
-                                <span className="font-semibold">HOA Fee:</span> ${hoa_fee.toFixed(2)}
-                            </p>
+                        <div className="flex flex-col lg:flex-row gap-4 mb-4">
+                            <div className="flex flex-col md:flex-row gap-4">
+                                <p className="flex items-center w-fit bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
+                                    <span className="font-semibold">Year Built:</span> {year_built}
+                                </p>
+                                <p className="flex items-center w-fit bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
+                                    <span className="font-semibold">Garage:</span> {garage ? 'Yes' : 'No'}
+                                </p>
+                            </div>
+                            <div className="flex flex-col md:flex-row gap-4">
+                                <p className="flex items-center w-fit bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
+                                    <span className="font-semibold">Parking Spots:</span> {parking_spots}
+                                </p>
+                                <p className="flex items-center w-fit bg-gray-200 text-gray-600 px-3 py-1 rounded-full">
+                                    <span className="font-semibold">HOA Fee:</span> ${hoa_fee.toFixed(2)}
+                                </p>
+                            </div>
                         </div>
                         <div className="text-lg mb-4">
                             <h3 className="font-semibold text-gray-800 mb-2">Facilities:</h3>
