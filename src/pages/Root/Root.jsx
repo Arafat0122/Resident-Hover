@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 const Root = () => {
     return (
         <div>
-            <div className="text-black bg-gray-100">
+            <div className="text-black bg-gray-100 px-2 lg:px-0">
                 <Navbar></Navbar>
                 <div className="max-w-sm md:max-w-2xl lg:max-w-6xl mx-auto font-poppins">
                     <Outlet></Outlet>
