@@ -29,11 +29,11 @@ const ViewedProp = () => {
     },[])
 
     return (
-        <div>
+        <div className="pt-12">
             <Helmet>
                 <title>Viewed Properties</title>
             </Helmet>
-            <div className="grid grid-cols-1 gap-10 mt-10 animate__animated animate__zoomIn">
+            <div className="grid grid-cols-1 mt-10 animate__animated animate__zoomIn">
             {
                 viewedEstates.map(estate => <ViewDetails
                 key={estate.id}
