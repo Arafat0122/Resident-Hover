@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "type": "Single-family home",
+        "title": "Spacious Family Home with Stunning Views",
+        "segment": "Residential",
+        "description": "This beautiful single-family home offers ample space and breathtaking views. Located in a quiet neighborhood, it features modern amenities and a large backyard.",
+        "price": 250000,
+        "status": "Sale",
+        "area_sqft": 2000,
+        "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "ST",
+            "zipcode": "12345"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Backyard"
+        ],
+        "image_url": "https://i.ibb.co/5x7mvjf/bailey-anselme-Bkp3g-Lygye-A-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "type": "Apartment",
+        "title": "Cozy Downtown Apartment with City Views",
+        "segment": "Residential",
+        "description": "This stylish apartment is located in the heart of the city, offering convenient access to shops, restaurants, and entertainment venues. Enjoy modern living in a vibrant urban setting.",
+        "price": 1200,
+        "status": "Rent",
+        "area_sqft": 800,
+        "location": {
+            "address": "789 Oak St",
+            "city": "Aptville",
+            "state": "ST",
+            "zipcode": "67890"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Lift"
+        ],
+        "image_url": "https://i.ibb.co/djFKrMz/grant-lemons-j-TCLppdw-SEc-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "type": "Vacation rental",
+        "title": "Seaside Retreat with Private Pool",
+        "segment": "Vacation",
+        "description": "Escape to this charming vacation rental by the beach. Relax in the private pool, soak up the sun on the spacious deck, and enjoy stunning ocean views.",
+        "price": 200,
+        "status": "Rent",
+        "area_sqft": 1000,
+        "location": {
+            "address": "369 Beach Blvd",
+            "city": "Seaside",
+            "state": "ST",
+            "zipcode": "24680"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Swimming pool"
+        ],
+        "image_url": "https://i.ibb.co/pwNBLRh/webaliser-TPTXZd9m-Oo-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "type": "Townhouse",
+        "title": "Modern Townhouse in Prime Location",
+        "segment": "Residential",
+        "description": "This contemporary townhouse offers urban living at its finest. With sleek design features and proximity to amenities, it's the perfect blend of style and convenience.",
+        "price": 180000,
+        "status": "Sale",
+        "area_sqft": 1500,
+        "location": {
+            "address": "456 Elm St",
+            "city": "Townsville",
+            "state": "ST",
+            "zipcode": "54321"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Parking"
+        ],
+        "image_url": "https://i.ibb.co/w7SVtyD/zac-gudakov-wwq-Z8-CM21gg-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "type": "Student housing",
+        "title": "Comfortable Student Housing Near Campus",
+        "segment": "Residential",
+        "description": "This cozy student housing unit is conveniently located near campus, making it ideal for students seeking a comfortable and affordable living arrangement.",
+        "price": 500,
+        "status": "Rent",
+        "area_sqft": 1200,
+        "location": {
+            "address": "101 University Ave",
+            "city": "Campus Town",
+            "state": "ST",
+            "zipcode": "13579"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Lift"
+        ],
+        "image_url": "https://i.ibb.co/LPxJ8tk/brian-babb-Xbw-Hrt87m-Q0-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "type": "Senior living community",
+        "title": "Senior Living with On-Site Amenities",
+        "segment": "S. Living",
+        "description": "Experience comfortable and carefree living in this senior community. With a range of on-site amenities and services, it's the perfect place to enjoy your golden years.",
+        "price": 3000,
+        "status": "Rent",
+        "area_sqft": 600,
+        "location": {
+            "address": "246 Maple Dr",
+            "city": "Senior City",
+            "state": "ST",
+            "zipcode": "97531"
+        },
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Parking"
+        ],
+        "image_url": "https://i.ibb.co/JHKYCt8/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg"
+    }
+]

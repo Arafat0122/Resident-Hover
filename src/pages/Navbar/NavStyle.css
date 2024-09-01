@@ -1,0 +1,5 @@
+li>.active {
+    background-image: linear-gradient(to right, rgb(1, 138, 218), rgb(5, 161, 96));
+    color: white;
+    font-weight: 700;
+}
