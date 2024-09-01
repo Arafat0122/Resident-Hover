@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative max-w-4xl mx-auto p-8 lg:p-16 bg-gray-600 bg-opacity-40 rounded-3xl shadow-lg">
                     <h2 className="text-3xl font-bold text-white text-center mb-8">Contact Us</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         {/* Contact Form */}
                         <div>
                             <h3 className="text-xl font-semibold text-white mb-4">Get in Touch</h3>
