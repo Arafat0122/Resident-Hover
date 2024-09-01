@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="p-10 bg-gradient-to-r from-green-700 to-blue-900 text-white grid md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-5 mt-5 space-y-5 lg:space-y-0">
+        <footer className="p-10 bg-gradient-to-r from-green-700 to-blue-900 text-white grid md:grid-cols-2 lg:grid-cols-5 items-center lg:gap-5 space-y-5 lg:space-y-0">
             <div className="grid grid-cols-1 gap-1 lg:col-span-2">
                 <h3 className="text-xl font-bold">About Us</h3>
                 <p className="pr-16">Our Residential Hover Inc company is committed to delivering a high level of expertise, customer service, and attention to detail to the marketing and sales of Residential real estate and rental properties.</p>

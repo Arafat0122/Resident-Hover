@@ -1,5 +1,64 @@
+/* NavStyle.css */
 li>.active {
-    background-image: linear-gradient(to right, rgb(1, 138, 218), rgb(5, 161, 96));
+    background-image: linear-gradient(to right, #007bff, #28a745);
+    /* Blue to green gradient */
     color: white;
     font-weight: 700;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    /* Light gray background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
+
+.navbar-start .dropdown-content {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.menu-horizontal>li>a {
+    color: #343a40;
+    /* Darker text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-horizontal>li>a:hover {
+    background-color: #e9ecef;
+    /* Light hover effect */
+}
+
+.btn {
+    background-color: #007bff;
+    /* Primary button color */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+    box-shadow: 0 4px 12px rgba(0, 91, 187, 0.3);
+    /* Soft shadow on hover */
+}
+
+.avatar img {
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
