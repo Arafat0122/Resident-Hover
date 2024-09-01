@@ -2,8 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { Helmet } from "react-helmet";
 import { toast } from "react-toastify";
-
-import Img from '../../assets/login.png'
+import Img from '../../assets/login.png';
 
 const UpdateProfile = () => {
     const { updateUserProfile, user } = useContext(AuthContext);
@@ -40,35 +39,65 @@ const UpdateProfile = () => {
                 });
             });
     }
+
     return (
-        <div>
+        <div className='min-h-screen flex items-center justify-center bg-gray-100'>
             <Helmet>
                 <title>Update Profile</title>
             </Helmet>
-            <div style={{backgroundImage: `url(${Img})`}} className="w-full max-w-xl mx-auto p-4 rounded-md shadow sm:p-8 text-gray-800 animate__animated animate__zoomIn">
-                <h2 className="mb-3 text-3xl font-bold text-white text-center">Update your account</h2>
-                <div className="avatar flex flex-col items-center my-5">
-                    <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mb-5">
-                        <img src={user ? `${user.photoURL}` : 'https://cdn-icons-png.flaticon.com/512/3541/3541871.png'} />
+            <div
+                style={{ backgroundImage: `url(${Img})` }}
+                className="w-full max-w-xl mx-auto p-8 rounded-lg shadow-lg bg-opacity-80 bg-gray-800 text-white animate__animated animate__zoomIn"
+            >
+                <h2 className="mb-6 text-3xl font-bold text-center">Update Your Account</h2>
+                <div className="flex flex-col items-center mb-6">
+                    <div className="w-24 h-24 rounded-full overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2 mb-4">
+                        <img src={user ? `${user.photoURL}` : 'https://cdn-icons-png.flaticon.com/512/3541/3541871.png'} alt="Profile" />
                     </div>
-                    <p className="text-xl font-bold text-white bg-[#00000050] py-2 px-5 rounded-full">{user.displayName}</p>
+                    <p className="text-xl font-bold bg-[#00000050] py-2 px-4 rounded-full">{user.displayName}</p>
                 </div>
-                <form onSubmit={handleUpdateProfile} className="space-y-8">
+                <form onSubmit={handleUpdateProfile} className="space-y-6">
                     <div className="space-y-4">
                         <div className="space-y-2">
-                            <label className="block text-sm font-medium text-white">Name</label>
-                            <input type="text" name="name" placeholder={user.displayName} required className="w-full px-3 py-2 border rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-violet-600" />
+                            <label className="block text-sm font-medium">Name</label>
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder={user.displayName}
+                                defaultValue={user.displayName}
+                                required
+                                className="w-full px-4 py-2 border rounded-md border-gray-600 bg-gray-700 text-white focus:border-violet-400 focus:ring-1 focus:ring-violet-400"
+                            />
                         </div>
                         <div className="space-y-2">
-                            <label className="block text-sm font-medium text-white">Email address:</label>
-                            <input type="email" name="email" placeholder={user.email} disabled className="w-full px-3 py-2 border rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-violet-600" />
+                            <label className="block text-sm font-medium">Email Address</label>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder={user.email}
+                                defaultValue={user.email}
+                                disabled
+                                className="w-full px-4 py-2 border rounded-md border-gray-600 bg-gray-700 text-white"
+                            />
                         </div>
                         <div className="space-y-2">
-                            <label className="block text-sm font-medium text-white">Photo URL</label>
-                            <input type="text" name="photo" placeholder={user.photoURL} required className="w-full px-3 py-2 border rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-violet-600" />
+                            <label className="block text-sm font-medium">Photo URL</label>
+                            <input
+                                type="text"
+                                name="photo"
+                                placeholder={user.photoURL}
+                                defaultValue={user.photoURL}
+                                required
+                                className="w-full px-4 py-2 border rounded-md border-gray-600 bg-gray-700 text-white focus:border-violet-400 focus:ring-1 focus:ring-violet-400"
+                            />
                         </div>
                     </div>
-                    <button className="btn w-full px-8 py-3 font-semibold rounded-md bg-gradient-to-r from-blue-500 to-lime-500 text-gray-50">Save Updates</button>
+                    <button
+                        type="submit"
+                        className="w-full px-6 py-3 font-semibold rounded-md bg-gradient-to-r from-blue-500 to-lime-500 text-white hover:bg-gradient-to-l transition duration-300"
+                    >
+                        Save Updates
+                    </button>
                 </form>
             </div>
         </div>
