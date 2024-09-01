@@ -8,18 +8,34 @@
         "price": 250000,
         "status": "Sale",
         "area_sqft": 2000,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "year_built": 2015,
+        "garage": true,
+        "parking_spots": 2,
+        "hoa_fee": 100,
         "location": {
             "address": "123 Main St",
             "city": "Cityville",
             "state": "ST",
-            "zipcode": "12345"
+            "zipcode": "12345",
+            "latitude": 37.7749,
+            "longitude": -122.4194
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Backyard"
+            "Backyard",
+            "Central Heating",
+            "Air Conditioning"
         ],
-        "image_url": "https://i.ibb.co/5x7mvjf/bailey-anselme-Bkp3g-Lygye-A-unsplash.jpg"
+        "image_url": "https://i.ibb.co/5x7mvjf/bailey-anselme-Bkp3g-Lygye-A-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=2DB21iorcrM&play=1",
+        "contact_agent": {
+            "name": "John Doe",
+            "phone": "+1234567890",
+            "email": "john.doe@example.com"
+        }
     },
     {
         "id": 2,
@@ -30,40 +46,72 @@
         "price": 1200,
         "status": "Rent",
         "area_sqft": 800,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "year_built": 2020,
+        "garage": false,
+        "parking_spots": 1,
+        "hoa_fee": 50,
         "location": {
             "address": "789 Oak St",
             "city": "Aptville",
             "state": "ST",
-            "zipcode": "67890"
+            "zipcode": "67890",
+            "latitude": 34.0522,
+            "longitude": -118.2437
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Lift"
+            "Lift",
+            "Gym",
+            "Pool"
         ],
-        "image_url": "https://i.ibb.co/djFKrMz/grant-lemons-j-TCLppdw-SEc-unsplash.jpg"
+        "image_url": "https://i.ibb.co/djFKrMz/grant-lemons-j-TCLppdw-SEc-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=NUJz97HJ5w9&play=1",
+        "contact_agent": {
+            "name": "Jane Smith",
+            "phone": "+0987654321",
+            "email": "jane.smith@example.com"
+        }
     },
     {
         "id": 3,
         "type": "Vacation rental",
-        "title": "Seaside Retreat with Private Pool",
+        "title": "Seaside Retreat with Private Pool and Well Air Ventilation",
         "segment": "Vacation",
         "description": "Escape to this charming vacation rental by the beach. Relax in the private pool, soak up the sun on the spacious deck, and enjoy stunning ocean views.",
         "price": 200,
         "status": "Rent",
         "area_sqft": 1000,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "year_built": 2018,
+        "garage": false,
+        "parking_spots": 1,
+        "hoa_fee": 0,
         "location": {
             "address": "369 Beach Blvd",
             "city": "Seaside",
             "state": "ST",
-            "zipcode": "24680"
+            "zipcode": "24680",
+            "latitude": 36.7783,
+            "longitude": -119.4179
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Swimming pool"
+            "Swimming pool",
+            "BBQ Grill",
+            "Deck"
         ],
-        "image_url": "https://i.ibb.co/pwNBLRh/webaliser-TPTXZd9m-Oo-unsplash.jpg"
+        "image_url": "https://i.ibb.co/pwNBLRh/webaliser-TPTXZd9m-Oo-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=7iigobC9xgg&play=1",
+        "contact_agent": {
+            "name": "Mark Johnson",
+            "phone": "+1122334455",
+            "email": "mark.johnson@example.com"
+        }
     },
     {
         "id": 4,
@@ -74,40 +122,71 @@
         "price": 180000,
         "status": "Sale",
         "area_sqft": 1500,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "year_built": 2022,
+        "garage": true,
+        "parking_spots": 2,
+        "hoa_fee": 150,
         "location": {
             "address": "456 Elm St",
             "city": "Townsville",
             "state": "ST",
-            "zipcode": "54321"
+            "zipcode": "54321",
+            "latitude": 40.7128,
+            "longitude": -74.0060
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Parking"
+            "Parking",
+            "Central Heating",
+            "Air Conditioning"
         ],
-        "image_url": "https://i.ibb.co/w7SVtyD/zac-gudakov-wwq-Z8-CM21gg-unsplash.jpg"
+        "image_url": "https://i.ibb.co/w7SVtyD/zac-gudakov-wwq-Z8-CM21gg-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=FcJQiouVb64&play=1",
+        "contact_agent": {
+            "name": "Emily Davis",
+            "phone": "+2233445566",
+            "email": "emily.davis@example.com"
+        }
     },
     {
         "id": 5,
         "type": "Student housing",
-        "title": "Comfortable Student Housing Near Campus",
+        "title": "Comfortable Student Housing",
         "segment": "Residential",
         "description": "This cozy student housing unit is conveniently located near campus, making it ideal for students seeking a comfortable and affordable living arrangement.",
         "price": 500,
         "status": "Rent",
         "area_sqft": 1200,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "year_built": 2012,
+        "garage": true,
+        "parking_spots": 20,
+        "hoa_fee": 0,
         "location": {
             "address": "101 University Ave",
             "city": "Campus Town",
             "state": "ST",
-            "zipcode": "13579"
+            "zipcode": "13579",
+            "latitude": 37.7749,
+            "longitude": -122.4194
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Lift"
+            "Lift",
+            "Laundry Room"
         ],
-        "image_url": "https://i.ibb.co/LPxJ8tk/brian-babb-Xbw-Hrt87m-Q0-unsplash.jpg"
+        "image_url": "https://i.ibb.co/LPxJ8tk/brian-babb-Xbw-Hrt87m-Q0-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=gKBu31AdtUt&play=1",
+        "contact_agent": {
+            "name": "Sarah Miller",
+            "phone": "+3344556677",
+            "email": "sarah.miller@example.com"
+        }
     },
     {
         "id": 6,
@@ -118,17 +197,33 @@
         "price": 3000,
         "status": "Rent",
         "area_sqft": 600,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "year_built": 2005,
+        "garage": false,
+        "parking_spots": 1,
+        "hoa_fee": 200,
         "location": {
             "address": "246 Maple Dr",
             "city": "Senior City",
             "state": "ST",
-            "zipcode": "97531"
+            "zipcode": "97531",
+            "latitude": 32.7157,
+            "longitude": -117.1611
         },
         "facilities": [
             "Living room",
             "Kitchen",
-            "Parking"
+            "Parking",
+            "Community Room",
+            "Fitness Center"
         ],
-        "image_url": "https://i.ibb.co/JHKYCt8/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg"
+        "image_url": "https://i.ibb.co/JHKYCt8/ronnie-george-9g-Gv-NWBe-Oq4-unsplash.jpg",
+        "virtual_tour_url": "https://my.matterport.com/show/?m=zR4KQgcmnGY&play=1",
+        "contact_agent": {
+            "name": "Laura Wilson",
+            "phone": "+4455667788",
+            "email": "laura.wilson@example.com"
+        }
     }
 ]
