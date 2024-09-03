@@ -1,7 +1,7 @@
 Resident Hover
 
 Live Site Link
-https://b9-a9-8f807.web.app/
+[https://b9-a9-8f807.web.app/](https://residentialhover.netlify.app/)
 
 
 
