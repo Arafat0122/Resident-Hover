@@ -1,7 +1,7 @@
-Resident Hover
+# Resident Hover
 
 Live Site Link
-https://b9-a9-8f807.web.app/
+https://residentialhover.netlify.app/
 
 
 
@@ -20,3 +20,5 @@ npm packages
 1. Swiper
 2. AOS Package
 3. Animate.css
+
+
