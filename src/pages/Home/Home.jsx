@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="pt-24">
             <Helmet>
-                <title>Resident Hover</title>
+                <title>Resident Hover - A Modern Real Estate Platform</title>
             </Helmet>
             <Slider></Slider>
             <div>
