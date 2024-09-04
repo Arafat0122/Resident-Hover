@@ -24,7 +24,7 @@ const About = () => {
                         <img className='w-24 mx-auto lg:mx-0 mb-4' src={AbImg} alt="About Us Icon" />
                         <h2 className='text-4xl font-bold mb-4 text-gray-800'>About Us</h2>
                         <p className='text-lg text-gray-700 leading-relaxed'>
-                            Welcome to Resident Hover, your premier destination for all things real estate. At Resident Hover, we pride ourselves on our commitment to providing unparalleled service and expertise in the ever-evolving world of property transactions. With years of experience in the industry, our team of dedicated professionals is here to guide you through every step of your real estate journey, whether you are buying, selling, or renting.
+                            Welcome to Resident Hover, your premier destination for all things in real estate. At Resident Hover, we pride ourselves on our commitment to providing unparalleled service and expertise in the ever-evolving world of property transactions. With years of experience in the industry, our team of dedicated professionals is here to guide you through every step of your real estate journey, whether you are buying, selling, or renting.
                             <br /><br />
                             Our mission is simple: to empower our clients with the knowledge and resources they need to make informed decisions about their residential investments. From stunning listings to expert advice, Resident Hover is your trusted partner in achieving your real estate dreams. Explore our website and discover why we are the preferred choice for discerning property seekers everywhere in the world.
                         </p>
